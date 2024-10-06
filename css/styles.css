@@ -5,31 +5,25 @@ body{
     font-size: 16px ;
     line-height: 1.5;
 background: radial-gradient(circle, rgb(177, 86, 0) 0%, rgb(149, 149, 149) 100%);
-  } 
-  
-  h1 h2 h3 h4 h5 h6 {
+} 
+  h1 h2 h3 h4 h5 h6{
     font-family: "Open Sans", sans-serif;
     font-size: 3em;
     color: #000000;
 }
-
-/* Navigation Grid */
-header {
+header{
     text-align: center;
     padding: 10px;
 }
-
-/* Style nav links */
-a {
+a{
     color: #fdead4; /* Set the color of the links */
     text-decoration: none; /* Remove underline */
 }
-
-a:hover {
+a:hover{
     color: #c1680e; /* Set hover color */
     text-decoration: underline; /* Add underline on hover */
 }
-p {
+p{
     font-size: 1.2em;
     color: #000000;
 }
@@ -52,9 +46,21 @@ p {
     display: inline;
     padding: 10px;
   }
-
 footer {
     text-align: center;
     padding: 20px;
     color: rgb(211, 141, 0);
+}
+a{
+    /* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+animation: 3s ease-in 1s 2 reverse both paused slidein;
+
+/* @keyframes duration | easing-function | delay | name */
+animation: 3s linear 1s slidein;
+
+/* two animations */
+animation:
+  3s linear slidein,
+  3s ease-out 5s slideout;
 }

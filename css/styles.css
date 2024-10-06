@@ -27,7 +27,7 @@ p{
     font-size: 1.2em;
     color: #000000;
 }
-.Galley {
+.Galley{
     width: 32%;
     height:300px;
     object-fit:contain;
@@ -37,21 +37,21 @@ p{
   }
 .directions .gallery{
     width: 100%;
-  }
-  nav{
+}
+nav{
     text-align: center;
-  }
-  nav ul li{
+}
+nav ul li{
     list-style: none;
     display: inline;
     padding: 10px;
-  }
-footer {
+}
+footer{
     text-align: center;
     padding: 20px;
     color: rgb(211, 141, 0);
 }
-a{
+h1{
     /* @keyframes duration | easing-function | delay |
 iteration-count | direction | fill-mode | play-state | name */
 animation: 3s ease-in 1s 2 reverse both paused slidein;
